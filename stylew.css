@@ -1,0 +1,226 @@
+*{box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+
+}
+html,body{
+width: 100%;
+padding: 0;
+margin: 0;
+
+}
+.partie1{
+    padding: 30px;
+    background-color:ghostwhite;
+    margin-bottom:0%;
+    color: blue;
+    width: 100%;
+    height: 100%;
+
+}
+ ul{
+    
+     
+    display: flex;
+    list-style-type:none;
+    flex-direction: row;
+    /* position: relative; */
+
+}
+
+ ul li {
+/*padding: 30px 10px;*/
+cursor: pointer;
+font-size: 15px;
+margin-right: 30px;
+
+
+}
+a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+#btn-btn:hover{
+    color: tomato;
+    background-color: thistle;
+}
+#btn-btn1:hover{
+    color: tomato;
+    background-color: thistle;
+}
+#btn-btn2:hover{
+    color: tomato;
+    background-color: thistle;
+}
+.partie2{
+    margin-top: 0px;
+    width: 100%;
+    height: 80%;
+    background-color:  #DB7093;
+    padding: 60px;
+    
+    }
+    .parag{
+        font-size: 20px;
+        padding:50px;
+        margin-left: 30px;
+        
+    }
+    .cspacolar{
+    color: floralwhite;
+
+    }
+    #btn-btn{
+        background-color:rgb(254, 210, 74);
+        font-size: 20px;
+        padding: 10px 20px ;
+        margin-top: 10px;
+        border: 2px solid white;
+        border-radius: 6px;
+        
+    }
+    #btn-btn1{
+        background-color: rgb(81, 194, 159);
+        font-size: 20px;
+        padding: 10px 20px ;
+        margin-top:10px;
+        border: 2px solid white;
+        display: inline-block;
+        border-radius: 6px;
+    }
+    #btn-btn2{
+        background-color:#3EA9F5;
+        font-size: 20px;
+        padding: 10px 20px ;
+        margin-top:10px;
+        border: 2px solid white;
+        display: inline-block;
+        border-radius: 6px;
+       
+        
+    }
+
+    #btn {
+        background-color:whitesmoke; /* white*/
+        border: none;
+        color:black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        margin-left:65px;
+        margin-bottom: 50px;
+        border: 2px solid white;
+    
+
+      }
+    .parite3{
+        display:flex;
+        flex-direction:row;
+        
+    }
+    .box1{
+        background-color:rgb(254, 210, 74);
+        flex-basis: 100em;
+    }
+    .box2{ background-color:  rgb(81, 194, 159);
+        flex-basis: 100em;
+
+    }
+    .box3{
+        background-color: #3EA9F5;
+        flex-basis: 100em;
+    }
+    .partie4{
+        display:flex;
+        flex-direction:row;
+        padding:50px;
+        justify-content:space-between;
+        
+    }
+    /* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    
+    display: flex;
+  
+  }
+ 
+  .dropdown-content a:hover {background-color: #ddd;}
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+     z-index: 1;
+     left: 0px;
+     top: 100%
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: burlywood;}
+  .sous-menu:hover .dropdown-content{
+      display:  flex;
+      width: 100%;
+      justify-content: space-around;
+      align-items: center;
+  }
+ 
+  /* .dropdown:hover .dropdown-content {display: flex;
+justify-content:space-around;
+
+  width: 100%; 
+
+}*/
+  
+.partie5{
+    margin-top: 10px ;
+    margin-bottom: 4px;
+    display:flex;
+    align-items: row;
+    justify-content: space-around;
+
+}
+.pfoo{
+    
+    padding: 20px 0px;
+    font-size: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Quattrocento', serif;
+    font-family: 'Martel', serif;
+    
+}
+.log{
+    background-color: rgb(81, 194, 159);
+    font-size: 20px;
+    padding: 10px 20px ;
+    margin-top:10px;
+    border: 2px solid white;
+    display: inline-block;
+    border-radius: 6px;
+
+}
+.log:hover{
+  
+    background-color: aqua;
+}
+
+
+ 
